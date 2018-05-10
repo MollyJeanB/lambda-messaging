@@ -1,5 +1,7 @@
 module.exports = async message => {
   console.dir(message);
 
-  return {};
+  return {
+    greeting: "hello"
+  };
 }
