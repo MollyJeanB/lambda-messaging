@@ -22,9 +22,9 @@ module.exports = async event => {
   if(data.Payload){
     console.log("success!")
    return data.Payload
+   }
    else {
      return {}
-   }
   }
 })
 }
